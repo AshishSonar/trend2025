@@ -1,0 +1,145 @@
+body {
+    background: #fff;
+    font-family: 'Orbitron', sans-serif;
+    padding: 50px 50px;
+  }
+
+.list{
+    font-family: 'Orbitron';
+    font-size: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.list-item{
+  float: left;
+  display: block;
+  padding: 16px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.list-item:hover {
+  font-weight: 900;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.nav-button{
+  background-color: transparent;
+  border: 2px solid #1f1f1f;
+  border-radius: 10px;
+  color: #1f1f1f;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 3px 40px;
+  cursor: grab;
+  text-align: center;
+  font-family: Poppins;
+}
+
+.navbar-container{
+  display: flex;
+}
+
+.button-group{
+  display: flex;
+  position: relative;
+  vertical-align: middle;
+}
+
+.search-icon{
+  padding-right: 20px;
+}
+
+.square{
+  position: absolute;
+  top: 500px;
+  left: 250px;
+  z-index: -1;
+}
+
+.star{
+  position: absolute;
+  left: 90%;
+}
+
+.globe{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+}
+
+.hero-container{
+  padding-top: 50px;
+  display: flex;
+}
+
+.hero-container-right{
+  padding-left: 80px;
+  padding-top: 70px;
+  
+}
+
+.hero-heading{
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.hero-description{
+  font-family: Poppins;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.button-email{
+  background-color: transparent;
+  border: 2px solid #1f1f1f;
+  border-radius: 10px;
+  color: #1f1f1f;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 3px 20px;
+  cursor: grab;
+  text-align: center;
+  font-family: Orbitron;
+  margin-left: 180px;
+}
+
+.button-join{
+  background-color: #1f1f1f;
+  border: 2px solid #1f1f1f;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 3px 5px;
+  cursor: grab;
+  text-align: center;
+  font-family: Orbitron;
+}
+
+.contact-heading{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+
+}
+
+span{
+  height: 20px;
+  margin: 5px;
+}
